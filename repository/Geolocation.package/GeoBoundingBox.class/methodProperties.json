@@ -1,0 +1,30 @@
+{
+	"instance" : {
+		"setValuesForPolarBoundingBox" : "PaulDeBruicker 9/27/2017 08:10",
+		"latitudeRadius" : "PaulDeBruicker 9/27/2017 08:48",
+		"latitudeMin" : "PaulDeBruicker 9/27/2017 07:37",
+		"contains:" : "PaulDeBruicker 9/27/2017 08:19",
+		"for:within:" : "PaulDeBruicker 9/27/2017 08:18",
+		"latitudeRadiusAt:" : "PaulDeBruicker 9/27/2017 08:48",
+		"longitudeMax:" : "PaulDeBruicker 9/27/2017 07:37",
+		"latitudeMax:" : "PaulDeBruicker 9/27/2017 07:37",
+		"minLatitude" : "PaulDeBruicker 9/27/2017 08:08",
+		"maxLatitude" : "PaulDeBruicker 9/27/2017 08:08",
+		"longitudeMax" : "PaulDeBruicker 9/27/2017 07:37",
+		"width" : "PaulDeBruicker 9/27/2017 08:46",
+		"topRight" : "PaulDeBruicker 9/27/2017 08:50",
+		"maxLongitude" : "PaulDeBruicker 9/27/2017 08:09",
+		"longitudeMin:" : "PaulDeBruicker 9/27/2017 07:37",
+		"latitudeMin:" : "PaulDeBruicker 9/27/2017 07:37",
+		"longitudeMin" : "PaulDeBruicker 9/27/2017 07:37",
+		"polarRadius" : "PaulDeBruicker 9/27/2017 07:46",
+		"minLongitude" : "PaulDeBruicker 9/27/2017 08:09",
+		"equitorialRadius" : "PaulDeBruicker 9/27/2017 07:46",
+		"latitudeMax" : "PaulDeBruicker 9/27/2017 07:37",
+		"bottomLeft" : "PaulDeBruicker 9/27/2017 08:50",
+		"height" : "PaulDeBruicker 9/27/2017 08:46"
+	},
+	"class" : {
+		"for:within:" : "PaulDeBruicker 9/27/2017 07:37"
+	}
+}

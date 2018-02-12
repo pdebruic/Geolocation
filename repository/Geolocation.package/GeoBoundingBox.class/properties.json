@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Geolocation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"latitudeMin",
+		"latitudeMax",
+		"longitudeMin",
+		"longitudeMax",
+		"centerLatitude",
+		"centerLongitude"
+	],
+	"name" : "GeoBoundingBox",
+	"type" : "normal"
+}

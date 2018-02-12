@@ -1,0 +1,17 @@
+{
+	"instance" : {
+		"longitudeRadians" : "PaulDeBruicker 9/27/2017 08:26",
+		"latitudeDegrees" : "PaulDeBruicker 9/27/2017 08:26",
+		"distanceTo:" : "PaulDeBruicker 9/27/2017 08:39",
+		"longitudeRadians:" : "PaulDeBruicker 9/27/2017 08:29",
+		"longitudeDegrees" : "PaulDeBruicker 9/27/2017 08:26",
+		"longitudeDegrees:" : "PaulDeBruicker 9/27/2017 08:34",
+		"latitudeRadians:" : "PaulDeBruicker 9/27/2017 08:29",
+		"latitudeRadians" : "PaulDeBruicker 9/27/2017 08:26",
+		"latitudeDegrees:" : "PaulDeBruicker 9/27/2017 08:27"
+	},
+	"class" : {
+		"degreeLatitude:longitude:" : "PaulDeBruicker 9/27/2017 08:30",
+		"radianLatitude:longitude:" : "PaulDeBruicker 9/27/2017 08:30"
+	}
+}

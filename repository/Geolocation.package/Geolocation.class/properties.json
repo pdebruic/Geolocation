@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Geolocation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"latitudeDegrees",
+		"longitudeDegrees",
+		"latitudeRadians",
+		"longitudeRadians"
+	],
+	"name" : "Geolocation",
+	"type" : "normal"
+}

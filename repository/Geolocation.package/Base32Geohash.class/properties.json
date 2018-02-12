@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Geohash",
+	"category" : "Geolocation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Base32Geohash",
+	"type" : "normal"
+}
