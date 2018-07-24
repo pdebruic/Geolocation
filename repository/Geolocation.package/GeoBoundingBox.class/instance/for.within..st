@@ -2,15 +2,17 @@ accessing
 for: aGeolocation within: aDistanceInMeters
 	"http://janmatuschek.de/LatitudeLongitudeBoundingCoordinates"
 
-	| latitudeDist longitudeDelta |
+	| angularRadius longitudeDelta |
+	distance := aDistanceInMeters.
 	centerLatitude := aGeolocation latitudeRadians.
 	centerLongitude := aGeolocation longitudeRadians.
-	latitudeDist := aDistanceInMeters / self latitudeRadius.
-	latitudeMax := centerLatitude + latitudeDist.
-	latitudeMin := centerLatitude - latitudeDist.
-	(latitudeMax > self maxLatitude or: [ latitudeMin < self minLatitude ])
+	angularRadius := self angularRadius.
+	latitudeMax := centerLatitude + angularRadius.
+	latitudeMin := centerLatitude - angularRadius.
+	(latitudeMax > self maxLatitude
+		or: [ latitudeMin < self minLatitude ])
 		ifTrue: [ ^ self setValuesForPolarBoundingBox ].
-	longitudeDelta := (latitudeDist sin / centerLatitude cos) arcSin.
+	longitudeDelta := (angularRadius sin / centerLatitude cos) arcSin.
 	longitudeMin := centerLongitude - longitudeDelta.
 	longitudeMin < self minLongitude
 		ifTrue: [ longitudeMin := longitudeMin + (Float pi * 2) ].

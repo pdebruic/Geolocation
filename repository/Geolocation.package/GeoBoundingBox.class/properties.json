@@ -11,7 +11,8 @@
 		"longitudeMin",
 		"longitudeMax",
 		"centerLatitude",
-		"centerLongitude"
+		"centerLongitude",
+		"distance"
 	],
 	"name" : "GeoBoundingBox",
 	"type" : "normal"
